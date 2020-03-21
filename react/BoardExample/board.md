@@ -1,6 +1,7 @@
 ## Structure
 <hr>
-```
+
+```=
 |-- package.json
 |-- bbs-server.js
 |-- bbs.db
