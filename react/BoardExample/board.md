@@ -1,6 +1,6 @@
 ## Structure
 <hr>
-'''
+```
 |-- package.json
 |-- bbs-server.js
 |-- bbs.db
@@ -10,6 +10,6 @@
 |-- src
      |-- index.js
 |-- webpack.config.js
-'''
+```
 
      
