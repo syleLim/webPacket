@@ -1,0 +1,90 @@
+//위치의 이동
+transfom : ~
+ - translate : position 이동
+ - scale : 크기 변화
+ - rotate : 회전
+ - skew : 비틀기
+ - perspective : 깊이감 표시 <크기>
+ - 해당 속성은 3d Z 등으로 속성 방향 지정 가능
+ 
+transform-origin : 변형 기준점 설정
+ - <x> <y> <z> | initial | inherit
+ - %, left, center, right => 로  x, y 설정
+ 
+perspective : 원근감 표시
+ - <크기> | none
+
+perspective-origin : 원근감 표시
+ - <x축 값> | <y축 값>
+ 
+transform-style : 부모의 3d변형을 하위에 적용
+ - flat | preserve-3d
+
+backface-visibility : 뒷면 표시 여부
+ - visible | hidden
+ 
+//위치의 이동 end 
+ 
+ 
+//transition : style값의 변경
+transition-property : 적용 여부 결정
+ - all | none | <속성이름>
+ - 속성을 , 로 여러개 설정 가능
+ 
+transition-duration : 진행시간 지정
+ - <시간>
+ - ,로 여러 속성에 나눠서 설정 가능
+ 
+transition-timing-function : 속도 변화율 지정
+ - linear | ease | ease-in | ease-out | ease-in-out | cubic-bezier(n, n, n, n)
+ 
+transition-delay : 시작 시간 지연
+ - <시간>
+ 
+transition : 동시 적용
+ - <property> <duration> <timing> <delay> 순서를 지켜야함 빠지면 default값
+
+//transition end
+ 
+
+//animation
+@keyframes <이름> {
+  from {
+    시작 스타일
+  }
+  
+  50% {
+    중간 스타일
+  }
+  
+  to {
+    마지막 스타일
+  }
+}
+
+animation-name : 위의 keyframes으로 설정한 이름 적용
+
+animation-duration : 실행시간 설정
+
+animaion-direction : 방향 지정
+ - normal | alternate
+ 
+animation-iteration-count : 반복 횟수 지정
+ - <number> | infinite
+ 
+animation-timing-function : 속도 변화율 지정
+ - timing function 값 그대로
+ 
+animation : 동시에 표시 
+
+
+
+
+
+
+
+
+
+
+
+

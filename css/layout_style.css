@@ -1,0 +1,60 @@
+## 중요 스타일
+
+block : p h ul ... -> 가로 나열
+and 
+inline : span img object sub textarea button ... -> 세로 나열
+
+//box model
+width, height : set size
+ - 크기 | 백분율 | auto
+
+padding : content to border size
+
+border : round line
+
+margin : out of border size
+
+display : inline ir block level setting
+ - block | inine | inline-block | inherit ...
+ - inline-block : inline style에 padding margin 적용 가능
+
+//box model end
+
+
+//border style
+border-style : 테두리 스타일 지정
+ - none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid
+ - inset = border-collapse:separate / border-collapse:collapse로 관리
+ 
+border-width : 테두리 두께
+ - 크기 | thin | medium | thick
+ - top right bottom left 순서로 적음
+ 
+border-color : 색상
+
+border : <width> | <color> | <style>
+
+border-radious : 둥근 모서리 처리
+ - <size> | < % > | <vertical_size> <horizontal_size>
+ - border-top-left-radious 로 위치 지정
+ - 타원 형태로 표시 가능 (border-radious 의 경우 <vertical_size> / <horizontal_size> 표기
+ 
+box-shadow : 그림자 처리
+ - <그림자 값> = <수평거리> <수직거리> <흐림정도> <번짐정도> <색상> | inset
+
+//border style end
+
+
+//padding style
+margin : top right bottom left | auto
+
+padding : top right bottom left | auto
+
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+## 중요도
+
+// positioning
+box-sizing : width & height 의 범위 결정
+ - content-box(default) | border-box
+ 
+##float : 좌우 배치
+ - left | right | none
+ - 겹쳐서 표시 가능(float 미설정)
+ 
+clear : float해제
+ - none | left | right | both
+ - 겹치기를 방지함
+ 
+position : 배치방식 지정
+ - static | relative | absolute | fixed
+ - relative를 기준으로 하면 left / top 등으로 상대 위치가 지정 가능
+ - absolute를 기준으로 하면 부모요소 기준  left / top 등으로 절대 위치 지정 가능
+ - fixed를 기준으로 하면 브라우저 기준
+ 
+##visibility : 요소 투명화
+ - visible | hidden | collapse
+ 
+##z-index : z축 설정
+ - 클수록 앞으로 나온다
+
+//positioning end 
+
+
+//다단 편집
+column-width : 단 너비 설정
+ - <크기> | auto
+ 
+column-content : 단 개수 설정
+ - <수> | auto
+ 
+column-gap : 단 사이 여백 지정
+ - <크기> | normal(1em)
+ 
+column-rule : 색 , 스타일, 너비
+ - <색> <스타일> <너비>
+ - 스타일 = none | dotted outset ...
+ 
+break-after(before / inside) : 단 나눌 위치 결정
+ - column | avoid-column
+ 
+column-span : 단 내부에서 일부 내용 단 합치기
+ - 1(default) | all
+ 
+//다단 편집 end
+
+
+//table style
+caption-side : caption positioning
+ - top | bottom
+ 
+border : outline style
+ - 앞선 <스타일> <크기> <색> 설정과 동일
+
+border-collapse : 테두리 통합, 분리
+ - collapse | separate(default)
+ - td와 table의 테두리를 합칠지 말지 결정
+ 
+border-spacing : margin between cells
+ - <크기>
+ 
+empty-cells : visiblity of empty cell
+ - show | hide
+ 
+##table-layout : 표의 너비 변환 설정
+ - auto (default) | fixed
+ 
+text-align / vertical-align : 수평 수직 정렬 설정
+ - left | right | center / top | bottom | middle
+
+//table style end
+
+
+// 2-layout example
+
+#header {
+  ~
+} 
+#container {
+ float :left
+}
+#sidebar {
+ float : right
+}
+#footer {
+ clear : both
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 

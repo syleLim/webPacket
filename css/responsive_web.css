@@ -1,0 +1,66 @@
+//
+meta에 viewport 설정이 요구됨
+<meta name='viewport' content='width=deviece-width, initial-scale=1'>
+//
+
+//GridLayout : fixed(px) value to % value (normaly width is %, height is fixed)
+text size = em / rem(based on parent)
+
+img size = 'srcset' or 'picture tag with source(media="(min-width:device size)")'
+
+//GridLayout end
+
+
+//media query : 다르게 스타일 적용
+@media screen(or all) and (max-width:size)
+
+@media screen(or all) and (max-width:lower size)
+
+...
+and 뒤에 들어갈 값들
+ - (min-/max-/ )device-width(or height) : 절대 크기 설정
+ - (min-/max-/ )(device- / )aspect-ratio | 비율값 설정
+ - orientation : portrait | landscape = 화면 회전 설정
+ - (min-/max-/ )color : 비트수
+ 
+ //media query end
+ 
+ 
+ //flexible box layout
+display : 컨테이너 지정
+ - flex | inline-flex
+ 
+flex-direction : 방향 지정
+ - row | row-inverse | column | column-inverse
+ 
+flex-wrap : 여러줄 배치 설정
+ - no-wrap(defualt) | wrap | wrap-reverse
+ 
+flex-flow : <방향> <배치> 동시 설정
+
+order : flex순서 결정
+
+flex : 항목의 크기 설정
+ - <얼마나 늘릴지> < 얼마나 줄일지> <기본 크기> | initial | auto
+ - initial 이면 공간 부족시 최소큭까지만 줄인다.
+
+justiy-content : 주축(가로) 기준 정하기
+ - flex-start | flex-end | center | space-between | space-around
+ 
+align-items : 교차축(세로) 기준 크기/정렬 정하기
+ - stretch(default) | flex-start | flex-end | center | baseline(가장 큰것 기준으로 맞춤)
+ 
+align-self : 위와 동일하나 개별 content마다 정렬 가능(align-items 내부에서 작동)
+
+align-content : 교차축 배치 방법
+ - flex-start(default) | space-between | flex-end | space-around | center
+
+
+
+
+
+
+
+
+
+

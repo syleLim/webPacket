@@ -1,0 +1,52 @@
+## 중요 스타일
+
+// background color and image style
+background-color : color-code
+
+## background-clip : 범위 조절
+ - background-box | padding-box | content-box
+ 
+## background-image : url()
+
+## background-repeat : 반복 방법 지정
+ - repeat | repeat-x | repeat-y | no-repeat
+
+background-size : 이미지 크기조절
+ - auto | contain | cover | 절대 크기 | 백분율
+ - contain : 이미지가 다 보임 / cover : 박스를 채움
+ 
+background-position : 이미지 위치 조절
+ - <수평위치 = left | center | right | 백분율 | 길이값> <수직위치 = top | center | bottom | 백분율 | 길이값>
+
+background-origin : 위치 기준
+ - border-box | padding-box | content-box
+ 
+background-attachment : window 기준 위치 고정
+ - scroll | fixed
+ 
+background : 전체 조정
+ - iamge / repeat / attachment / position / clip / origin / size
+
+// background color and image style end
+
+
+//gradiant
+liner-gradient( <angle> to <direction> , ...colors )  
+ - direction = to top | to left | to right | to bottom
+ 
+radient-gradient( <shape> <size> at <position>, ...colors )
+ - shape = eclipse(default) | circle
+ - size = closet-side | closet-corner | farthest-side | farthest-corner
+ - color-stop = 색의 중단 위치 ex> radial-gradient (red, yellow 20%, blue)
+ 
+repeating-linear(radial)-gradient : 반복 설정
+
+//gradient end
+
+
+
+
+
+
+
+
